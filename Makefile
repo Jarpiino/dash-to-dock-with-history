@@ -152,4 +152,8 @@ ifneq ($(strip $(ESLINT_TAP)),)
 endif
 
 check:
-	ESLINT_USE_FLAT_CONFIG=false $(ESLINT) $(ESLINT_ARGS) .
+	ESLINT_USE_FLAT_CONFIG=false $(ESLINT) $(ESLINT_ARGS) . tests/*.mjs
+
+.PHONY: test
+test:
+	./tests/run.sh
