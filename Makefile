@@ -12,6 +12,8 @@ EXTRA_MODULES = \
                 dash.js \
                 docking.js \
                 appIcons.js \
+                recentItems.js \
+                recentItemsMenu.js \
                 appIconsDecorator.js \
                 appIconIndicators.js \
                 dockStruts.js \
